@@ -1,0 +1,60 @@
+.bg-main {
+    background-color: #daecf3
+}
+
+.bg-contrast {
+    background-color: #002145
+}
+
+.highlight {
+    background-color: #1aa6b7
+}
+
+.highlight-alt {
+    background-color: #fe424d
+}
+
+.ubc-sec-blue-darkest {
+    background-color: #0055B7
+}
+
+.ubc-sec-blue-darker {
+    background-color: #00A7E1
+}
+
+.ubc-sec-blue-mid {
+    background-color: #40B4E5
+}
+
+.ubc-sec-blue-light {
+    background-color: #6EC4E8
+}
+
+.ubc-sec-blue-lightest {
+    background-color: #97D4E9
+}
+
+#colors li {
+    position: relative;
+    padding: 0;
+    margin-bottom: 0.9375em
+}
+
+#colors li p {
+    position: absolute;
+    padding: 3px 13px;
+    color: #666;
+    background-color: #fff;
+    font-size: 10px;
+    bottom: 0;
+    left: 0.8em
+}
+
+#colors li .color {
+    height: 120px;
+    margin-right: 0.9375em
+}
+
+#colors li:last-child {
+    margin-right: 0
+}

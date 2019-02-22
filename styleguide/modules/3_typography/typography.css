@@ -1,0 +1,111 @@
+@import url(../../assets/fonts/Huge/stylesheet.css);
+@import url("https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i|Raleway:400,500,600,700,700i,800,800i,900,900i");
+.font-huge {
+    font-family: 'HUGEAvantGardeBold', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-weight: normal
+}
+
+.font-galaxie {
+    font-family: 'Galaxie', Helvetica, Roboto, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-weight: normal
+}
+
+.font-raleway,
+#typography h1,
+#typography h2,
+#typography h3,
+#typography h4,
+#typography h5,
+#typography h6 {
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility
+}
+
+.font-lato,
+body,
+.address {
+    font-family: 'Lato', Geneva, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility
+}
+
+body {
+    font-weight: 400
+}
+
+.italic {
+    font-style: italic
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 100px
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 60px
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 32px
+}
+
+h4 {
+    font-size: 24px
+}
+
+h5 {
+    font-size: 18px
+}
+
+h6 {
+    font-size: 16px
+}
+
+#typography h1,
+#typography h2,
+#typography h3,
+#typography h4,
+#typography h5,
+#typography h6,
+#typography p {
+    margin-top: 0
+}
+
+#typography h1,
+#typography h2,
+#typography h3,
+#typography h4,
+#typography h5,
+#typography h6 {
+    line-height: 1em
+}
+
+#typography h4,
+#typography h5,
+#typography h6 {
+    font-weight: 500
+}
+
+#typography p {
+    font: 16px/1.5 "Lato";
+    font-weight: 300;
+    margin: 2em 0
+}
+
+.address {
+    font-size: 14px;
+    line-height: 1.2em;
+    color: #666
+}
+
+.font-pocus {
+    color: #002145
+}
