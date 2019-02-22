@@ -1,11 +1,15 @@
 {
 	"id": "buttons",
-	"name": "Buttons",
+	"name": "Buttons and Links",
 	"hasScript": "yes",
 	"items": [
 	    {
 	        "buttonName" : "Load more",
-	        "className": "button black"
+	        "className": "button main"
+	    },
+	     {
+	        "buttonName" : "An example of link treatment",
+	        "className": ""
 	    }
 	]
 }

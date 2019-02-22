@@ -10,3 +10,11 @@ br
 h5.huge-module__title--small=items.paragraphsName
 each paragraph in items.paragraphs
 	p(class=paragraph.className)=paragraph.text
+br
+h5.huge-module__title--small=items.address.label
+h4.huge-module__title--light #{items.address.fontName} - #{items.address.fontSize}
+- var text = ""
+each line in items.address.text
+	- text += line + '<br/>'
+address(class=items.address.className) !{text}
+

@@ -6,4 +6,13 @@ ul.huge-list--unstyled.list-colors
 		- var last = index == items.colors.length - 1 ? 'end' : ''
 		li(class="small-12 medium-2 column #{last}")
 			div(class="color #{color.className}")
-				p .#{color.className}
+				p #{color.labelName||"."+color.className}
+
+div(style="clear: both; padding-top: 25px;")
+	h3.huge-module__title Secondary Colours
+	ul.huge-list--unstyled.list-colors
+		each color, index in items.secondary_colors
+			- var last = index == items.secondary_colors.length - 1 ? 'end' : ''
+			li(class="small-12 medium-2 column #{last}")
+				div(class="color #{color.className}")
+					p #{color.labelName||"."+color.className}

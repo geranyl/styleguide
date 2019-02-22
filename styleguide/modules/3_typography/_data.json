@@ -4,42 +4,80 @@
     "hasScript": "yes",
     "items" : {
         "fonts": [
+           
             {
                 "heading": "1",
-                "fontName" : "HUGE Avant Garde Bold",
+                "fontName" : "H1: Raleway 800",
                 "fontSize": "100px",
-                "className": "font-huge",
-                "title": "Hello."
+                "className": "font-pocus",
+                "title": "POCUS UBC"
             },
             {
                 "heading": "2",
-                "fontName" : "Galaxie Copernicus Book Italic",
-                "fontSize": "80px",
-                "className": "font-galaxie italic",
-                "title": "Thursday"
+                "fontName" : "H2: Raleway 700",
+                "fontSize": "60px",
+                "className": "font-pocus",
+                "title": "Pocus LV Function"
             },
+
             {
                 "heading": "3",
-                "fontName" : "HUGE Avant Garde Bold",
-                "fontSize": "38px",
-                "className": "font-huge small-3",
-                "title": "Born Hackers: Digital Kids Revisited."
+                "fontName" : "H3: Raleway 600",
+                "fontSize": "32px",
+                "className": "font-pocus",
+                "title": "Pocus LV Function"
+            },
+
+            {
+                "heading": "4",
+                "fontName" : "H4: Raleway 500",
+                "fontSize": "",
+                "className": "font-pocus",
+                "title": "Pocus LV Function"
+            },
+
+            {
+                "heading": "5",
+                "fontName" : "H5: Raleway 500",
+                "fontSize": "",
+                "className": "font-pocus",
+                "title": "Pocus LV Function"
+            },
+
+            {
+                "heading": "6",
+                "fontName" : "H6: Raleway 500",
+                "fontSize": "",
+                "className": "font-pocus",
+                "title": "Pocus LV Function"
             }
+             
+        
         ],
         "paragraphsName": "Paragraphs",
         "paragraphs": [
             {
-                "className": "p1",
+                "className": "",
                 "text": "SEO is a marketing tactic that costs five percent of overall budget but brings in more than 20 percent of revenue for many Fortune 500 companies, and yet very few of them prioritize it. Instead, while slowly changing, too many CMOS still favor paid search, which costs 20 percent and brings in… 20 percent. In search, businesses need to shift priorities. Now."
             },
             {
-                "className": "p2",
+                "className": "",
                 "text": "Link volume is one of the most powerful signals search engines use to rank websites. There’s a way to use links to generate better search results, but too many marketers rely on traditional (or even black hat) tactics that just don’t work anymore."
             },
             {
-                "className": "p3 small-3",
+                "className": "",
                 "text": "Huge to be recognized at the 2014 “Made in NY” Awards for the company’s contribution to New York’s creative economy."
             }
-        ]
+        ],
+        "address": {
+            "label":"Address",
+            "fontName":"Lato",
+            "fontSize":"14px",
+            "className":"address",
+            "text":["899 W 12th Ave","Vancouver, BC V5Z 1M9","E-Mail: moinsen2@blindtextgenerator.com"]
+        }
+
+        
+
     }
 }

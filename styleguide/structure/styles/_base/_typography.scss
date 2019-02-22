@@ -16,7 +16,7 @@ a {
 
 p.huge-module__paragraph {
   margin: 0;
-  margin-bottom: 25px;
+  margin-bottom: 0.3em;
   color: #333;
   -webkit-font-smoothing: antialiased;
   a {
@@ -39,7 +39,11 @@ p.huge-module__paragraph {
     margin: 0;
     font-size: 12px;
     line-height: 12px;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
     font-weight: normal;
   }
+}
+
+.small{
+  font-size: 0.8em;
 }

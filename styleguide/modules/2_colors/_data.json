@@ -2,19 +2,45 @@
     "id": "colors",
     "name": "Colors",
     "items": {
-        "intro": ["Huge have two main colors: Magenta and Black. Additional Blue might be found on slides or t-shirts."],
+        "intro": ["Site background white with content blocks using the content background.","Contrast colours of UBC navy blue, and highlight colours for buttons/links. Official secondary colors of UBC also provided."],
         "colors": [
             {
-                "className": "bg-magenta"
+                "className": "bg-main",
+                "labelName": "Background: content"
             },
             {
-                "className": "bg-black"
+                "className": "bg-contrast",
+                "labelName": "Background: contrast"
             },
             {
-                "className": "bg-grey"
+                "className": "highlight",
+                "labelName": "Highlight: main"
             },
             {
-                "className": "bg-blue"
+                "className": "highlight-alt",
+                "labelName": "Highlight: alternative"
+            }
+        ],
+        "secondary_colors":[
+            {
+                "className": "ubc-sec-blue-darkest",
+                "labelName": ""
+            },
+            {
+                "className": "ubc-sec-blue-darker",
+                "labelName": ""
+            },
+            {
+                "className": "ubc-sec-blue-mid",
+                "labelName": ""
+            },
+            {
+                "className": "ubc-sec-blue-light",
+                "labelName": ""
+            },
+            {
+                "className": "ubc-sec-blue-lightest",
+                "labelName": ""
             }
         ]
     }

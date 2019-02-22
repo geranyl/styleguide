@@ -1,23 +1,48 @@
-$magenta: #ec008c;
-$black: #000;
-$grey-dark: #232525;
-$grey: #808080;
-$blue: #2fbbf9;
+$ripple: #daecf3;
+$crush: #fe424d;
+$seafloor: #1aa6b7;
+$ubc-blue: #002145;
+$ubc-sec-blue-darkest: #0055B7;
+$ubc-sec-blue-darker: #00A7E1;
+$ubc-sec-blue-mid: #40B4E5;
+$ubc-sec-blue-light: #6EC4E8;
+$ubc-sec-blue-lightest: #97D4E9;
 
-.bg-magenta {
-	background-color: $magenta;
+
+.bg-main {
+	background-color: $ripple;
 }
 
-.bg-black {
-	background-color: $black;
+.bg-contrast {
+	background-color: $ubc-blue;
 }
 
-.bg-grey {
-	background-color: $grey;
+.highlight {
+	background-color: $seafloor;
 }
 
-.bg-blue {
-	background-color: $blue;
+.highlight-alt{
+	background-color: $crush;
+}
+
+.ubc-sec-blue-darkest{
+  background-color: $ubc-sec-blue-darkest;
+}
+
+.ubc-sec-blue-darker{
+  background-color: $ubc-sec-blue-darker;
+}
+
+.ubc-sec-blue-mid{
+  background-color: $ubc-sec-blue-mid;
+}
+
+.ubc-sec-blue-light{
+  background-color: $ubc-sec-blue-light;
+}
+
+.ubc-sec-blue-lightest{
+  background-color: $ubc-sec-blue-lightest;
 }
 
 #colors {
@@ -31,9 +56,9 @@ $blue: #2fbbf9;
       padding: 3px 13px;
       color: #666;
       background-color: #fff;
-      font-size: 12px;
+      font-size: 10px;
       bottom: 0;
-      left: 0.9375em;
+      left: 0.8em;
     }
     .color {
       height: 120px;

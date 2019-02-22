@@ -1,28 +1,48 @@
+$ripple: #daecf3;
+$crush: #fe424d;
+$seafloor: #1aa6b7;
+$ubc-blue: #002145;
+$ubc-sec-blue-darkest: #0055B7;
+$ubc-sec-blue-darker: #00A7E1;
+$ubc-sec-blue-mid: #40B4E5;
+$ubc-sec-blue-light: #6EC4E8;
+$ubc-sec-blue-lightest: #97D4E9;
+
 .huge-footer {
-	background-color: #eeeeee;
-	height: $footerHeight;
-	text-align: center;
+	background-color: $ripple;
+	text-align: left;
 	padding: 40px 0 0;
 
-	.h {
-		display: inline-block;
-		width: 46px;
-		height: 54px;
-		background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAiCAYAAABBY8kOAAAAgUlEQVRIS2N8w9DznwEvYNwowlAcgE/JG4beDQwM//3xqWEctQhb8IwGHY5EM5rqsAfMaD7CGi5UyUf/GRiPMjD8q8FfHjK1MDL8t6awrMNvBbGyRCQGYo0iUAcQLr1HLSI7w44GHZlBR8cMO1ofkRlHDAyjQTcadPAQGE0MA5wYAEQy1fHPRACvAAAAAElFTkSuQmCC") 50% 50% no-repeat;
-		text-decoration: none;
+	.footer-section-header{
+		font-weight: bold;
+		font-color: $ubc-blue;
 	}
 
-	p {
-		font-family: "HUGEAvantGardeBold", Helvetica, Arial, sans;
-		letter-spacing: -1px;
-		font-size: 15px;
-		color: #999;
-		margin-top: 16px;
-		-webkit-font-smoothing: antialiased;
+	ul{
+		margin-block-start: 0;
 	}
 
-	sup {
-		font-size: 7px;
-		vertical-align: super;
+	li{
+		line-height: 1.4em;
 	}
+
+	$a-tags: 'a, a:active, a:hover, a:visited';
+	$a-tags-hover: 'a:active, a:hover';
+ 
+	#{$a-tags} {
+	  color: $ubc-blue;
+	  text-decoration: none;
+	  font-size: 12px;
+	}
+	#{$a-tags-hover} {
+	  color: $crush;
+	}
+	
+}
+
+.copyright{
+	background-color: $ubc-blue;
+	font-size: 12px;
+	color: #fff;
+	padding: 10px 20px;
 }
